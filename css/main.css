@@ -1,0 +1,547 @@
+@import'font.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__nav{
+    max-width: 1365px;
+    width: 90%;
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__nav-list li{
+    display: inline-flex;
+}
+.navbar__nav-list a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-left: 12.5px;
+    margin-right: 11.5px;
+}
+.navbar__nav p a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-right: 42.5px;
+}
+/* navbar end */
+
+/* header */
+.header{
+    width: 100%;
+    min-height: 504px;
+    background: url(../image/raster/Rectangle.png) no-repeat center center /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    font-size: 43px;
+    line-height: 46px;
+    color: #ffffff;
+}
+.header p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+.header a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+/* header end */
+
+/* header get frame */
+.header__get-frame{
+    max-width: 580px;
+    min-height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+.header__get-frame h1{
+    font-size: 43px;
+    line-height: 58px;
+    color: #000000;
+}
+.header__get-frame p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A0A0A0;
+    letter-spacing: 0.8px;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+.header__get-frame a{
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+/* header get frame end */
+
+/* product */
+.product{
+    max-width: 1365px;
+    width: 90%;
+    min-height: 570px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.frame__product{
+    max-width: 682px;
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.frame__product h3{
+    font-size: 27px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 48.47px;
+    margin-bottom: 23px;
+}
+.frame__product a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+/* product end */
+
+/* header product frame */
+.header__product-frame{
+    max-width: 1365px;
+    width: 90%;
+    min-height: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.header__product-frame h1{
+    font-size: 33px;
+    line-height: 36px;
+    color: #000000;
+}
+.header__product-frame p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #A0A0A0;
+    margin-top: 16px;
+}
+/* header product frame end */
+
+.points__box{
+    width: 100%;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 42px;
+}
+.point{
+    width: 7px;
+    height: 7px;
+    background: #000000;
+}
+
+/* cards product */
+.cards__product{
+    max-width: 1340px;
+    width: 90%;
+    min-height: 493px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.card{
+    width: 310px;
+    height: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.card h5{
+    font-size: 13px;
+    line-height: 21px;
+    color: #A0A0A0;
+    letter-spacing: 0.7px;
+}
+.card p{
+    font-size: 12px;
+    line-height: 21px;
+    color: #A0A0A0;
+    letter-spacing: 0.7px;
+}
+/* cards product end */
+
+/* content header */
+.content__header{
+    width: 100%;
+    height: 504px;
+    background: url(../image/raster/Rectangle\ \(7\).png) no-repeat center center /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.content__header h1{
+    font-size: 66px;
+    line-height: 70px;
+    color: #ffffff;
+}
+.content__header p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.content__header a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+}
+/* content header end */
+
+/* content Made The Hard Way */
+.content__made-the-hard-way{
+    max-width: 1052px;
+    width: 90%;
+    min-height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42.28px;
+}
+.content__made-the-hard-way h1,
+.content__box-humans h1{
+    font-size: 34px;
+    line-height: 36px;
+    color: #000000;
+}
+.content__made-the-hard-way p,
+.content__box-humans p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #A0A0A0;
+    letter-spacing: 0.8px;
+    text-align: center;
+    max-width: 777px;
+    margin: 23px 0;
+}
+/* content Made The Hard Way end */
+
+/* content box humans */
+.content__box-humans{
+    max-width: 1365px;
+    width: 90%;
+    min-height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content__box-humans img{
+    margin-top: 80px;
+    margin-bottom: 96.34px;
+}
+.content__box-humans p{
+    max-width: 789px;
+}
+.content__box-humans a{
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-top: 44px;
+}
+/* content box humans end */
+
+/* frame Design Inspires */
+.frame__design-inspires{
+    max-width: 1340px;
+    width: 90%;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9AA8B1;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 39px;
+}
+.frame__design-inspires h2{
+    font-size: 43px;
+    line-height: 58px;
+    color: #ffffff;
+    margin: 24px;
+}
+.frame__design-inspires p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+}
+/* frame Design Inspires end */
+
+/* footer */
+.footer{
+    width: 100%;
+    min-height: 468px;
+}
+.footer__info{
+    max-width: 1340px;
+    width: 90%;
+    min-height: 345px;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+}
+.footer-list{
+    width: 170px;
+    min-height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 12.5px;
+}
+.footer-list a,
+.footer__signup h4{
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
+.footer__signup{
+    max-width: 500px;
+    height: 199px;
+    margin-bottom: 66px;
+}
+.footer__signup p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    letter-spacing: 0.8px;
+    width: 348px;
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+.footer__go-up{
+    width: 82px;
+    height: 82px;
+    background: #000000;
+    align-self: flex-start;
+    margin-left: 575.5px;
+    padding: 22px 30px 28px;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+}
+.span{
+    width: 320px;
+    height: 1px;
+    background: #000000;
+}
+.footer__footer{
+    max-width: 1365px;
+    width: 90%;
+    height: 23px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 19.55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.footer__footer-list{
+    display: flex;
+    gap: 38px;
+    margin-right: 12.5px;
+}
+.footer__footer li{
+    display: inline-flex;
+}
+.footer__footer-list a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #707A7F;
+    letter-spacing: 0.8px;
+}
+.footer__footer-list a:hover{
+    color: #000000;
+}
+/* footer end */
+
+@media(max-width:1400px) {
+    .navbar__nav,
+    .product,
+    .cards__product,
+    .content__made-the-hard-way,
+    .content__box-humans,
+    .frame__design-inspires,
+    .footer__info,
+    .footer__footer{
+        max-width: 940px;
+    }
+    .frame__product img,
+    .cards__product img,
+    .content__made-the-hard-way img,
+    .content__box-humans img{
+        max-width: 100%;
+    }
+    .footer__go-up{
+        margin: auto;
+    }
+}
+@media(max-width:1200px) {
+    .navbar__nav,
+    .product,
+    .content__made-the-hard-way,
+    .content__box-humans,
+    .frame__design-inspires,
+    .footer__footer,
+    .footer__info{
+        max-width: 740px;
+    }
+    .product{
+        flex-direction: column;
+    }
+    .frame__product img{
+        max-width: 100%;
+    }
+    .cards__product{
+        flex-wrap: wrap;
+
+    }
+}
+@media(max-width:992px) {
+    .navbar__nav,
+    .product,
+    .content__made-the-hard-way,
+    .content__box-humans,
+    .frame__design-inspires
+    .footer__info,
+    .footer__footer{
+        max-width: 540px;
+    }
+}
+@media(max-width:767px) {
+    .navbar__nav{
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar__nav-list a{
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .navbar__nav-list p a{
+        margin-right: unset;
+    }
+    .product{
+        max-width: 440px;
+    }
+    .frame__product img{
+        max-width: 100%;
+    }
+    .cards__product{
+        max-width: 440px;
+    }
+    .content__header,
+    .frame__design-inspires p,
+    .frame__design-inspires h2{
+        text-align: center;
+    }
+    .content__header h1{
+        font-size: 46px;
+    }
+    .footer__info{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__signup{
+        margin-bottom: unset;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer__signup h4{
+        font-weight: 700;
+    }
+    .footer__go-up{
+        display: none;
+    }
+    .footer-list{
+        text-align: center;
+    }
+}
+@media(max-width:596px) {
+    .header h1{
+        font-size: 25px;
+    }
+    .header__get-frame{
+        max-width: 380px;
+        text-align: center;
+    }
+    .content__made-the-hard-way h1,
+    .content__box-humans h1{
+        text-align: center;
+    }
+}
+@media(max-width:420px) {
+    .header__product-frame h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:320px) {}
